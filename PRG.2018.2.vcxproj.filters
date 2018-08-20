@@ -13,5 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Gugudan">
+      <UniqueIdentifier>{d17eb357-6d78-49b7-ac7b-b64a8bb9b545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Calc">
+      <UniqueIdentifier>{894bad6c-13be-45c2-8c67-4aaa62a1b1a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="func2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gugudan.c">
+      <Filter>소스 파일\Gugudan</Filter>
+    </ClCompile>
+    <ClCompile Include="gugudanAll.c">
+      <Filter>소스 파일\Gugudan</Filter>
+    </ClCompile>
+    <ClCompile Include="gugudanOne.c">
+      <Filter>소스 파일\Gugudan</Filter>
+    </ClCompile>
+    <ClCompile Include="add.c">
+      <Filter>소스 파일\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="calc.c">
+      <Filter>소스 파일\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="div.c">
+      <Filter>소스 파일\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="mul.c">
+      <Filter>소스 파일\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="sub.c">
+      <Filter>소스 파일\Calc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gugudan.h">
+      <Filter>소스 파일\Gugudan</Filter>
+    </ClInclude>
+    <ClInclude Include="calc.h">
+      <Filter>소스 파일\Calc</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
