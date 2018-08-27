@@ -24,6 +24,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="codeup.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="div.c" />
     <ClCompile Include="func2.c" />
     <ClCompile Include="gugudan.c">
@@ -32,8 +35,12 @@
     </ClCompile>
     <ClCompile Include="gugudanAll.c" />
     <ClCompile Include="gugudanOne.c" />
+    <ClCompile Include="hanoi.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="mul.c" />
     <ClCompile Include="sub.c" />
+    <ClCompile Include="variable.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc.h" />

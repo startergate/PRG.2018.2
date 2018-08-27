@@ -48,6 +48,15 @@
     <ClCompile Include="sub.c">
       <Filter>소스 파일\Calc</Filter>
     </ClCompile>
+    <ClCompile Include="codeup.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoi.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gugudan.h">
