@@ -57,6 +57,15 @@
     <ClCompile Include="variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="callby.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gugudan.h">
