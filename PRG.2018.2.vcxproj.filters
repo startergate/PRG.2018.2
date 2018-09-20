@@ -19,6 +19,15 @@
     <Filter Include="소스 파일\Calc">
       <UniqueIdentifier>{894bad6c-13be-45c2-8c67-4aaa62a1b1a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Pointer">
+      <UniqueIdentifier>{869f9bb3-a38a-4c59-b2d7-1d76fd318903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\callby">
+      <UniqueIdentifier>{416b0783-b381-42fd-831f-e2151410a318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Struction">
+      <UniqueIdentifier>{09d03049-1d78-4040-96c4-962619e8464a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="func2.c">
@@ -51,9 +60,6 @@
     <ClCompile Include="codeup.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="hanoi.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -61,10 +67,31 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="pointer1.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer3.c">
+      <Filter>소스 파일\Pointer</Filter>
     </ClCompile>
     <ClCompile Include="callby.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\callby</Filter>
+    </ClCompile>
+    <ClCompile Include="callby1.c">
+      <Filter>소스 파일\callby</Filter>
+    </ClCompile>
+    <ClCompile Include="callby2.c">
+      <Filter>소스 파일\callby</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer4.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoi.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="callby3.c">
+      <Filter>소스 파일\callby</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.c">
+      <Filter>소스 파일\Struction</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

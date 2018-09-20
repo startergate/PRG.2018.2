@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 void swap1(int, int);
 void swap2(int *, int *);
@@ -30,4 +30,4 @@ void swap2(int *a, int *b) {
 	int temp = *a;
 	*a = *b;
 	*b = temp;
-}
+}*/
