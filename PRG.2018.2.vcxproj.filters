@@ -93,6 +93,12 @@
     <ClCompile Include="struct.c">
       <Filter>소스 파일\Struction</Filter>
     </ClCompile>
+    <ClCompile Include="struct1.c">
+      <Filter>소스 파일\Struction</Filter>
+    </ClCompile>
+    <ClCompile Include="struct2.c">
+      <Filter>소스 파일\Struction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gugudan.h">
