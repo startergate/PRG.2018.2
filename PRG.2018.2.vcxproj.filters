@@ -25,7 +25,7 @@
     <Filter Include="소스 파일\callby">
       <UniqueIdentifier>{416b0783-b381-42fd-831f-e2151410a318}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Struction">
+    <Filter Include="소스 파일\Struct">
       <UniqueIdentifier>{09d03049-1d78-4040-96c4-962619e8464a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -91,13 +91,13 @@
       <Filter>소스 파일\callby</Filter>
     </ClCompile>
     <ClCompile Include="struct.c">
-      <Filter>소스 파일\Struction</Filter>
+      <Filter>소스 파일\Struct</Filter>
     </ClCompile>
     <ClCompile Include="struct1.c">
-      <Filter>소스 파일\Struction</Filter>
+      <Filter>소스 파일\Struct</Filter>
     </ClCompile>
     <ClCompile Include="struct2.c">
-      <Filter>소스 파일\Struction</Filter>
+      <Filter>소스 파일\Struct</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

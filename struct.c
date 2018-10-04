@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 struct point {
 	int x;
 	int y;
@@ -8,4 +8,4 @@ int main() {
 	printf("%d %d\n", pi.x, pi.y);
 	printf("%d %d\n", p2.x, p2.y);
 	return 0;
-}*/
+}

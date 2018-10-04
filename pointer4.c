@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main() {
 	int a[3][4] = { 10, 20, 30, 40, 50 };
@@ -21,7 +21,7 @@ int main() {
 		printf("\n");
 	}
 	return 0;
-}*/
+}
 
 /*#include <stdio.h>
 

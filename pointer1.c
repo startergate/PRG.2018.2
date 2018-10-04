@@ -21,7 +21,7 @@
 	printf("%d, %d, %d\n", x, y, *ptr);
 }*/
 
-/*int main() {
+int main() {
 	int i, *ip;
 	float f, *fp;
 	double d, *dp;
@@ -41,4 +41,4 @@
 	printf("%p %p %p %p\n", ip, fp, dp, cp);
 
 	return 0;
-}*/
+}

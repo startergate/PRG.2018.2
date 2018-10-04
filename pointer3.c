@@ -16,15 +16,15 @@
 	return 0;
 }
 
-// ptr[0]   ... ptr[i]
-// a[0]     ... a[i]
-// *(ptr+0) ... *(ptr+1)
-// *(a+0)   ... *(a+1)
+// ptr[0]   ...  ptr[i]
+// a[0]     ...  a[i]
+// *(ptr+0) ...  *(ptr+1)
+// *(a+0)   ...  *(a+1)
 
-// &ptr[0]  ... &ptr[i]
-// &a[0]    ... &a[i]
-// ptr + 1  ... ptr + i
-// a + 1    ... a + i
+// &ptr[0]  ...  &ptr[i]
+// &a[0]    ...  &a[i]
+// ptr + 1  ...  ptr + i
+// a + 1    ...  a + i
 */
 
 /*void print(int *, int);
