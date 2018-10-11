@@ -3,16 +3,27 @@
 void item();
 void roomDisplayer(Room (*apart)[5]);
 int sum = 0;
+
+typedef struct paymentInfo {
+	Card card;
+	Bank bank;
+	int currency;
+} Pay;
+
 typedef struct room {
 	int lastDate;
 	int productUse[6];
-
+	Pay payment;
 } Room;
 
+typedef struct passbook {
+	char number[15];
+	int passcode;
+} Bank;
+
 typedef struct cardInfo {
-	int parse1, parse2, parse3, parse4;
-	int cvc, cardNumber;
-};
+	int parse1, parse2, parse3, parse4, cvc, cardNumber, passcode;
+} Card;
 int main() {
 	Room apart[15][5];
 	int an, floor, room, length, sw, day = 0;
@@ -90,17 +101,18 @@ again:
 				printf("│ 5.하나카드                                │\n");
 				printf("│ 6.GSM카드                                 │\n");
 				printf("└───────────────────────────────────────────┘\n");
-				int parse1, parse2, parse3, parse4, passcode, cvc, cardnumber;
-				scanf("%d", &cardnumber);
+				scanf("%d", &apart[floor - 1][room - 1].payment.card.cardNumber);
 				printf("카드 번호를 입력하세요.\n예) 1234 5678 2345 5678\n");
-				scanf("%d %d %d %d", &parse1, &parse2, &parse3, &parse4);
+				scanf("%d %d %d %d", &apart[floor - 1][room - 1].payment.card.parse1, &apart[floor - 1][room - 1].payment.card.parse2, &apart[floor - 1][room - 1].payment.card.parse3, &apart[floor - 1][room - 1].payment.card.parse4);
 			code:
 				printf("비밀번호 앞 2자리를 입력하세요.\n");
-				scanf("%d", &passcode);
-				if (passcode < 0 || passcode > 99)
+				int pcode;
+				scanf("%d", &pcode);
+				if (pcode < 0 || pcode > 99)
 					goto code;
+				apart[floor - 1][room - 1].payment.card.passcode = pcode;
 				printf("CVC값을 입력하세요.\n");
-				scanf("%d", &cvc);
+				scanf("%d", &apart[floor - 1][room - 1].payment.card.cvc);
 			}
 			break;
 			case 3:
@@ -113,10 +125,14 @@ again:
 				{
 					if (nu[i] == '\0')
 					{
+						printf("다시 입력해주세요.\n");
 						goto account;
 					}
 				}
+				strcpy(apart[floor - 1][room - 1].payment.bank.number, nu);
 				break;
+				printf("비밀번호를 입력하세요.\n:");
+				scanf("%d", apart[floor - 1][room - 1].payment.bank.passcode);
 			default:
 				goto pay;
 			}
@@ -128,11 +144,11 @@ again:
 		{
 			for (int j = 0; j < 5; j++)
 			{
-				if (apart[i][j]) {
-					apart[i][j]--;
-					if (!apart[i][j])
+				if (apart[i][j].lastDate) {
+					apart[i][j].lastDate--;
+					if (!apart[i][j].lastDate)
 					{
-						printf("%d0%d호가 퇴실했습니다.\n", i + 1, j + 1);
+						printf("%d0%d호가 퇴실합니다..\n", i + 1, j + 1);
 					}
 				}
 			}
@@ -199,7 +215,7 @@ void roomDisplayer(Room (*apart)[5]) {
 	{
 		for (int j = 0; j < 5; j++)
 		{
-			if (apart[i][j]) printf("■ ");
+			if (apart[i][j].lastDate) printf("■ ");
 			else printf("□ ");
 		}
 		printf("\n");
