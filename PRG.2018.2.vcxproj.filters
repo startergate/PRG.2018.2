@@ -63,9 +63,6 @@
     <ClCompile Include="variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="sizeof.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="pointer1.c">
       <Filter>소스 파일\Pointer</Filter>
     </ClCompile>
@@ -101,6 +98,18 @@
     </ClCompile>
     <ClCompile Include="project.c">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="struct3.c">
+      <Filter>소스 파일\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="struct4.c">
+      <Filter>소스 파일\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="struct5.c">
+      <Filter>소스 파일\Struct</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
