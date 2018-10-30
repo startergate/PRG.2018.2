@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Struct">
       <UniqueIdentifier>{09d03049-1d78-4040-96c4-962619e8464a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Memory">
+      <UniqueIdentifier>{06faf734-7171-4278-8b9f-63dca1fb946b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="func2.c">
@@ -109,6 +112,18 @@
       <Filter>소스 파일\Struct</Filter>
     </ClCompile>
     <ClCompile Include="struct5.c">
+      <Filter>소스 파일\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="memory1.c">
+      <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory2.c">
+      <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory3.c">
+      <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="struct6.c">
       <Filter>소스 파일\Struct</Filter>
     </ClCompile>
   </ItemGroup>
