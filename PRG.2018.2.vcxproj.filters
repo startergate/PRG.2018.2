@@ -126,6 +126,9 @@
     <ClCompile Include="struct6.c">
       <Filter>소스 파일\Struct</Filter>
     </ClCompile>
+    <ClCompile Include="struct7.c">
+      <Filter>소스 파일\Struct</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gugudan.h">
