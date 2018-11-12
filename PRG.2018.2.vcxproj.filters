@@ -129,6 +129,18 @@
     <ClCompile Include="struct7.c">
       <Filter>소스 파일\Struct</Filter>
     </ClCompile>
+    <ClCompile Include="dpointer1.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="dpointer2.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="dpointer3.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="dpointer4.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gugudan.h">
