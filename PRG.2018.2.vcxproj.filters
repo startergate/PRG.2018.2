@@ -141,6 +141,9 @@
     <ClCompile Include="dpointer4.c">
       <Filter>소스 파일\Pointer</Filter>
     </ClCompile>
+    <ClCompile Include="src1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gugudan.h">
