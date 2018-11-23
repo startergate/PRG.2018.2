@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\Memory">
       <UniqueIdentifier>{06faf734-7171-4278-8b9f-63dca1fb946b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\NewFilter1">
+      <UniqueIdentifier>{39702b98-c14a-4465-946b-821e2c00986e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="func2.c">
@@ -143,6 +146,18 @@
     </ClCompile>
     <ClCompile Include="src1.c">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="voidPointer1.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="voidPointer2.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="fpointer1.c">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="fpointer2.c">
+      <Filter>소스 파일\Pointer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
